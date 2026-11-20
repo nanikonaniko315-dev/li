@@ -1,0 +1,24 @@
+.box{
+width: 290px;
+height: 310px;
+background-color: red;
+animation: color 3s infinite;
+margin-top: 90px;
+margin-left: 40px;
+}
+
+@keyframes color{
+    0%{
+background-color: red;
+
+    }50%{
+       
+     background-color: yellow;
+
+    } 75%{
+        background-color: green;
+    } 100%{
+        background-color: blue;
+    }
+    
+}
